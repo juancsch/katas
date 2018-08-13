@@ -1,0 +1,18 @@
+{
+    "name": "Factorial",
+    "version": "0.1.0",
+    "description": "Kata factorial",
+    "main": "",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "pretest": "npm install",
+        "test": "mocha -Gw **/*.js"
+    },
+    "devDependencies": {
+        "chai": "^3.4.0",
+        "mocha": "^2.3.3",
+        "sinon": "^1.17.2",
+        "sinon-chai": "^2.8.0"
+    }
+}

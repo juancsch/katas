@@ -1,0 +1,20 @@
+{
+    "name": "LeanCodeKata",
+    "version": "0.0.1",
+    "description": "Lean code kata",
+    "author": "juanc",
+    "main": "",
+    "license": "ISC",
+    "scripts": {
+        "pretest": "npm i",
+        "test": "npm run jasmine",
+        "jasmine": "jasmine JASMINE_CONFIG_PATH=test/config/jasmine.json",
+        "tdd": "nodemon -w src -w test -e js -x npm run jasmine"
+    },
+    "devDependencies": {
+        "jasmine": "^2.4.1",
+        "jasmine-growl-reporter": "^0.2.1",
+        "jasmine-spec-reporter": "^2.4.0",
+        "nodemon": "^1.8.1"
+    }
+}

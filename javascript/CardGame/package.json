@@ -1,0 +1,17 @@
+{
+  "name": "CardGame",
+  "version": "0.1.0",
+  "description": "Kata CardGame",
+  "author": "juanc",
+  "main": "",
+  "license": "ISC",
+  "scripts": {
+    "pretest": "npm i",
+    "test": "mocha -G ./**",
+    "tdd": "mocha -Gw ./**"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "chai": "^3.4.0"
+  }
+}

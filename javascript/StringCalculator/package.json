@@ -1,0 +1,19 @@
+{
+	"name": "string-calculator-kata",
+	"version": "0.0.1",
+	"description": "",
+	"author": "juancsch",
+	"main": "",
+	"directories": {
+		"src": "sources",
+		"test": "spectations"
+	},
+	"scripts": {
+		"test": "jest --verbose",
+		"test:tdd": "jest -w"
+	},
+	"devDependencies": {
+		"jest": "^23.3.0",
+		"standard": "^11.0.1"
+	}
+}

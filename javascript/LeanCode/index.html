@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body { background-color: pink; }
+    </style>
+</head>
+<body>
+<article>
+  The element selected by :scope has a lime background if your browser supports scoped stylesheet.
+  <section> 
+    <p>Outside scope.</p>
+  </section>
+  <section>
+    <style scoped>
+      :scope { background-color: lime; }
+    </style>
+    <p>Inside scope.</p>
+  </section>
+  <section> 
+    <p>Outside scope.</p>
+  </section>
+</article>
+</body>
+</html>

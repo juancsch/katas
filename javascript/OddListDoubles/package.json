@@ -1,0 +1,20 @@
+{
+    "name": "PrimeFactors",
+    "version": "1.0.0",
+    "description": "Kata lista de impares",
+    "main": "",
+    "author": "",
+    "license": "ISC",
+    "directories": {
+      "src": "src",
+      "test": "test"
+    },
+    "scripts": {
+      "pretest": "npm i",
+      "test": "mocha -G ./**"
+    },
+    "devDependencies": {
+      "mocha": "^2.3.3",
+      "chai": "^3.4.0"
+    }
+}
